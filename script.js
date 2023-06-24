@@ -37,12 +37,7 @@ function generateAccessToken() {
     }
     return accessToken;
 }
-// profile.addEventListener('click',()=>{
-//     let user = JSON.parse(localStorage.getItem('info'));
-//     if(user.token) {
-//     profile.href = "http://127.0.0.1:5500/f3con3/profile.html"
-//     }
-// })    
+
 function navigateToProfile(token){
 // window.location.pathname
 let path = '/f3con3/index.html';
